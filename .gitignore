@@ -37,3 +37,6 @@
 # Ignore all executable files without extension
 *.[eE][xX][eE]
 *.[oO]
+
+#build(includes all the executable files)
+build/
