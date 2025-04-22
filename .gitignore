@@ -39,4 +39,4 @@
 *.[oO]
 
 #build(includes all the executable files)
-build/
+/build/
