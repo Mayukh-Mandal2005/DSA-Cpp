@@ -33,3 +33,7 @@
 
 #VS Code
 .vscode/
+
+# Ignore all executable files without extension
+*.[eE][xX][eE]
+*.[oO]
