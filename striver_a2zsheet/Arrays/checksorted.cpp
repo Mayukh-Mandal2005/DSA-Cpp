@@ -5,11 +5,7 @@ using namespace std;
 bool isSorted(vector<int> &a){
     for (int i = 1; i < a.size(); i++)
     {
-        if(a[i] >= a[i-1]){
-
-        }
-        else
-        {
+        if(a[i] < a[i-1]){
             return false;
         }
     }
