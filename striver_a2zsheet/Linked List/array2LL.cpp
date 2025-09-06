@@ -32,4 +32,13 @@ int main()
     vector<int> arr = {12,4,6,8};
     Node* head = arraytoLL(arr);
     cout << head->data << endl;
+
+    Node* temp = head;
+    while (temp)
+    {
+        cout << temp->data << " ";
+        temp = temp->next;
+    }
+    cout << endl;
+
 }
